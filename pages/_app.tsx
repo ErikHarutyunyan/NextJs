@@ -1,10 +1,11 @@
+import { AppProps } from "next/app";
 import Image from "next/image";
 import Head from "next/head";
 import Layout from "../components/Layout";
 import youtubeImg from '../public/youtube.jpg';
 import '../styles/globals.scss';
 
-const MyApp = ({ Component, pageProps }) => (
+const MyApp = ({ Component, pageProps }: AppProps) => (
   <Layout>
     <Head>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
