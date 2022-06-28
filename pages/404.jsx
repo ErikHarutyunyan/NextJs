@@ -1,9 +1,10 @@
+import Heading from "../components/Heading"
 
 const Error = () => {
   return (
     <>
-        <h1>404</h1>
-        <h2>Not Found Page</h2>
+      <Heading text="404"/>
+      <Heading text="Not Found" tag="h2"/>
     </>
   )
 }

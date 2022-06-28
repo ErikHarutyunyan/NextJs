@@ -1,6 +1,8 @@
+import Heading from "../../components/Heading"
+
 const Contacts = () => {
     return (
-      <div>Contacts list</div>
+      <Heading text="Contacts list"/>
     )
   }
   
