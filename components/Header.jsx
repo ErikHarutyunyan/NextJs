@@ -1,11 +1,12 @@
-import Heading from "./Heading"
+import Heading from "./Heading";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
     <header>
-        <Heading tag="h3" text="header"/>
+      <Navbar />
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
